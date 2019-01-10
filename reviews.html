@@ -34,6 +34,13 @@ div.transbox p {
 <style type="text/css">body {
 background-color: #E0F9FC
 }
+  
+article {
+ display:grid;
+ grid-template-columns: 1fr 1fr 1fr;
+}
+article * {grid-column: 2/3;}
+  
 </style>
 <p style="text-align: left;">(put review here)</p>
 
@@ -415,12 +422,6 @@ body {
 </div>
 
 <div class="main">
-
-article {
- display:grid;
- grid-template-columns: 1fr 1fr 1fr;
-}
-article * {grid-column: 2/3;}
   
   <article>
     <p>Article</p>
